@@ -1,0 +1,228 @@
+Comptes client à réactiver et site à down sur plesk :
+vecofroid		user OK		site down
+espace-ingb		user OK		site down
+dvgbeauty		user OK 	site down
+ecv-70			user OK		site down
+emann			user OK		site down
+equipement-beton	user OK		site down
+eximmaconseil		user OK		site down
+dessinenousunemaison	user OK		site down
+meubles-mourey		user OK		site down
+locatelli-habitat	user OK		site down
+ametanodisation		user OK		site down
+gtpassion		user OK		site down
+mogra			user OK		site down
+fcnautic.com		user OK		site down
+
+
+DNS non modifiés :
+rsclub 			user			--> En attente de changement DNS par client
+gensduvoyage-gadje	user 			--> Problèmes Front Helix, pas de suite pour le moment
+
+
+
+BD ametanodisation.fr			sc1qohu6976
+
+sc1qohu6976_ametanodisation
+sc1qohu6976_ametanodisation-user
+eYGQ)-_ei1&]
+
+--> users bloqués, fichiers download, bd download, 
+--> Domaine créé, BD créée, fichiers transférés, 
+--> Testé, corrigé, pb JoomlaShack bénin,
+--> config modif, htaccess modif, déplacé, domaine modifié
+--> DNS, FINALISE
+
+BD gtpassion.fr				sc1qohu6976
+
+sc1qohu6976_gtpassion
+sc1qohu6976_gtpassion-user
+J[bP_Fr3r[4%
+
+--> users bloqués, fichiers download, bd download,
+--> Domaine créé, BD créée, fichiers en transfert,
+--> config modifiée, 
+--> font-awesome.min.css n'existe pas mais est cherché
+--> FINALISE
+
+BD mogra.fr				sc1qohu6976
+
+sc1qohu6976_mogra
+sc1qohu6976_mogra-user
+~4zjEneZM(~1
+
+--> users bloqués, fichiers download, bd download, 
+--> Domaine créé, BD créée, fichiers en tranfert, 
+--> Testé, corrigé,
+--> config modif, htaccess modif, déplacé, domaine modifié
+--> DNS, FINALISE
+
+BD rsclub.fr				sc1qohu6976
+
+sc1qohu6976_rsclub
+sc1qohu6976_rsclub-user
++P@9Yru8Yv^C
+
+--> users bloqués, fichiers download, bd download,
+--> Domaine créé, BD créée, fichiers transférés, 
+--> Testé, corrigé,
+--> config modif, htaccess modif, déplacé, domaine modifié
+--> DNS, FINALISE
+
+
+
+BD dessinenousunemaison.com 		sc1qohu6976
+
+sc1qohu6976_dessinenousunemaison
+sc1qohu6976_dessinenousunemaison-user
+q?k#R1wVY3v]
+
+--> fichiers en download, BD download, domaine créé, BD créée, fichiers transférés, config modifiée
+--> Testé, corrigé, déplacé hors public, htaccess modifié, domaine modifié,
+--> FINALISE
+
+BD locatelli-habitat.fr			sc1qohu6976
+
+sc1qohu6976_locatelli-habitat
+sc1qohu6976_locatelli-habitat-user
++a-EF1nWaGRj
+
+--> fichiers en download, BD download, domaine créé, BD créée, fichiers transférés, config modifiée
+--> Testé, corrigé, déplacé hors public, htaccess modifié, domaine modifié,
+--> FINALISE
+
+
+BD meubles-mourey.fr			sc1qohu6976
+
+sc1qohu6976_meubles-mourey
+sc1qohu6976_meubles-mourey-user
+$)S]1nvBpnNk
+
+--> fichiers en download, BD download, domaine créé, BD créée, fichiers transférés, config modifiée
+--> Testé, corrigé, déplacé hors public, htaccess modifié, domaine modifié,
+--> FINALISE
+
+
+BD equipement-beton.fr		sc1qohu6976
+
+sc1qohu6976_equipement-beton
+sc1qohu6976_equipement-beton-user
+N]O8I1Sn,op-
+
+--> BD download, fichiers download, domaine créé, BD créée, fichiers transférés, config modifiée
+--> testé, corrigé, déplacé hors public, htaccess modifié, domaine modifié
+--> FINALISE
+
+BD emann.fr			sc1qohu6976
+
+sc1qohu6976_emann
+sc1qohu6976_emann-user
+[K2]9Ac2M45k
+
+--> BD download, fichiers download, domaine créé, BD créée, fichiers transférés, config modifiée
+--> Testé, modifié, corrigé, DNS changés, déplacé hors public, domaine modifié, htaccess modifié
+--> FINALISE
+
+
+BD eximmaconseil.fr
+
+sc1qohu6976_eximmaconseil
+sc1qohu6976_eximmaconseil-user
+}@Tqp^qJ7Dkl
+
+--> BD download, fichiers download, domaine créé, BD créée, fichiers transférés, config modifiée
+--> Testé, modifié, corrigé, DNS changés, déplacé hors public, domaine modifié, htaccess modifié
+--> FINALISE
+
+
+BD vecofroid.com 		~sc3bire~ sc1qohu6976
+
+sc1qohu6976_vecofroid
+sc1qohu6976_vecofroid-user
+7+=fsGSwEh.f
+
+--> user bloqués, BD download, fichiers download, BD créée, Domaine créé, fichiers transférés, config modifiée
+--> Erreur 0 jsp
+--> Migration vers sc1qohu
+--> Testé, fonctionnel, juste bug google map lié à l'API ? 
+--> déplacé hors public, htaccess modifié, domaine modifié
+--> FINALISE
+
+
+dvgbeauty.fr			sc1qohu
+
+sc1qohu6976_dvgbeauty
+sc1qohu6976_dvgbeauty-user
+X-92YZr.VAAj
+
+--> user bloqués, fichiers download, Domaine créé, BD créée, config modifiée, fichiers transférés
+--> testé, corrigé et fonctionnel, déplacé hors public
+--> htaccess modifié
+--> FINALISE
+
+
+ecv-70.fr			sc1qohu
+
+sc1qohu6976_ecv-70
+sc1qohu6976_ecv-70-user
+}th7j02Yy&Ov
+
+--> user bloqués, fichiers download, Domaine créé, BD créée, config modifiée, fichiers transférés
+--> testé, déplacé hors public, htaccess modifié, erreur CSS sppagebuilder
+--> domaine modifié
+--> FINALISE
+
+
+effleure-et-sens.fr		sc1qohu
+
+sc1qohu6976_effleure-et-sens
+sc1qohu6976_effleure-et-sens-user
+EJ(pa{Gr.-y.
+
+--> user bloqués, fichiers download, Domaine créé, BD créée, config modifiée, fichiers transférés, htaccess à modifier
+--> Mis à jour, testé, htaccess modifié, 
+--> Arrêt Migration, arrêt du site, FINALISE
+
+
+
+
+
+
+
+
+
+
+BD fcnautic.com
+
+sc3bire1781_fcnautic
+sc3bire1781_fcnautic-user
+kEx^chx+2~1$
+
+--> user desac, download, BD créée, Domaine créé, transféré, config modifiée, testé, déplacé hors public, domaine modifié
+--> FINALISE
+
+
+BD espace-ingb.com
+
+sc3bire1781_espace-ingb
+sc3bire1781_espace-ingb-user
+u(P%k(1mB8%^
+
+--> user bloqués, fichiers download, BD Créée, domaine créé, transféré, config modifiée
+--> que des bugs erreur 404 réglées ?
+--> FINALISE
+
+
+BD gensduvoyage-gadje.fr		sc3bire
+
+sc3bire1781_gensduvoyage-gadje
+sc3bire1781_gensduvoyage-gadje-user
+cExJbRV3a}L3
+
+
+--> BD download, fichiers download, domaine créé, fichiers transférés, BD créée, config modifiée
+--> Tests : MaJ back office ok, front PB Helix, Michel s'en occupe
+
+
+
+

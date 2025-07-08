@@ -1,0 +1,273 @@
+Comptes client à réactiver et site à down sur plesk :
+
+fermeturesdefrancebfc.fr 	user OK		site down
+fermeturespheulpin.fr   	user OK		site down
+csv70.fr			user OK		site down
+angelini-avocat.fr 		user OK		site down
+bodydiamant.fr			user OK		site down 
+avocatdefrance.fr		user OK		site down
+transports-barbier.fr		user OK		site down
+debosselage-voiture.com		user OK		site down
+proxycom.fr 			user OK		site down
+chaumartinvesoul.fr		user OK		site down
+brasserieleglobe.fr		user OK		site down
+braszerogravite.fr		user OK		site down
+brisard-dampierre.fr		user OK		site down
+cattinair.fr			user OK		site down
+entretientoiture.fr		user OK		site down
+gigamedia.fr			user OK		site 
+la-fontaine-aux-vins.com	user OK		site down
+cptsbv.fr			user OK		site down
+vhso.fr				user Ok		site down
+sgs-sage.fr			user 		site 		DNS
+
+DNS non modifiés :
+sgs-sage.fr		user			--> En attente de changement DNS par client
+bourdault.f		user			--> En attente de changement DNS par client
+rsclub 			user			--> En attente de changement DNS par client
+usiduc.fr		user			--> En attente de changement DNS par client
+transports-gerard.com	user			--> En attente de changement DNS par client
+saonoise.com		user			--> En attente de changement DNS par client
+gensduvoyage-gadje	user 			--> Problèmes Front Helix, pas de suite pour le moment
+
+
+
+BD sgs-sage.fr				sc1qohu6976	PHP 7.4
+
+sc1qohu6976_sgs-sage
+sc1qohu6976_sgs-sage-user
+mPcb@[~DfO-e
+
+--> Fichier & BD download, BD créée, DOmaine créé 
+--> FINALISE
+
+BD vhso.fr				sc3bire1781     PHP 7.2
+
+
+sc3bire1781_vhso
+sc3bire1781_vhso-user
+b3VAU)b{G@xZ
+
+--> Fichier & BD download, BD créée, DOmaine créé
+--> widgetkit fait des siennes, on tente de passer en prod, 
+--> FINALISE
+
+
+BD cptsbv.fr				sc3qohu6976
+
+sc3qohu6976_cptsbv
+sc3qohu6976_cptsbv-user
+#8ey[l*=0OMt
+
+--> user down, fichier download, bd download, fichiers transférés, BD créée
+--> déplacement sc3qohu6976
+--> FINALISE
+
+
+BD entretientoiture.fr			sc1qohu6976
+
+sc1qohu6976_entretientoiture
+sc1qohu6976_entretientoiture-user
+VcC&n=[yNCH$
+
+--> user down, fichier download, bd download, fichiers transférés, BD créée
+--> FINALISE
+
+
+BD gigamedia.fr				sc1qohu6976
+
+sc1qohu6976_gigamedia
+sc1qohu6976_gigamedia-user
+_q[lvNAq5xvx
+
+--> user down, fichier download, bd download, fichiers transférés, BD créée
+--> FINALISE
+
+
+BD la-fontaine-aux-vins.com		sc1qohu6976
+
+
+sc1qohu6976_la-fontaine-aux-vins
+sc1qohu6976_la-fontaine-aux-vins-user
+,~Jzfi-%TzGy
+
+--> user down, fichier download, bd download, fichiers transférés, BD créée
+--> FINALISE
+
+
+
+
+BD brasserieleglobe.fr			sc1qohu6976
+
+sc1qohu6976_brasserieleglobe
+sc1qohu6976_brasserieleglobe-user
+Hrr~&zeF6kb6
+
+--> User coupés, Fichiers download, BD download, 
+--> Domaine créé, BD créée, Fichiers transférés, config modifiée
+--> Déplacé, domaine modifié, config et htaccess modifié,
+--> FINALISE
+
+BD braszerogravite.fr			sc1qohu6976
+
+sc1qohu6976_braszerogravite
+sc1qohu6976_braszerogravite-user
+QFgSIV4OB!zI
+
+--> User coupés, Fichiers download, BD download, 
+--> Domaine créé, BD créée, Fichiers transférés, config modifiée
+--> Déplacé, domaine modifié, config et htaccess modifié,
+--> FINALISE
+
+BD brisard-dampierre.fr			sc1qohu6976
+
+sc1qohu6976_brisard-dampierre
+sc1qohu6976_brisard-dampierre-user
+s=}h#=N+[3IT
+
+--> User coupés, Fichiers download, BD download, 
+--> Domaine créé, BD créée, Fichiers transférés, config modifiée
+--> Déplacé, domaine modifié, config et htaccess modifié,
+--> FINALISE
+
+BD cattinair.fr				sc1qohu6976
+
+sc1qohu6976_cattinair
+sc1qohu6976_cattinair-user
+#kx3M}]0aR+,
+
+--> User coupés, Fichiers download, BD download, 
+--> Domaine créé, BD créée, Fichiers transférés, config modifiée
+--> Déplacé, domaine modifié, config et htaccess modifié,
+--> FINALISE
+
+
+
+BD transports-barbier.fr
+
+sc1bire1781_transports-barbier
+sc1bire1781_transports-barbier-user
+P9?Tb2OwmUOR
+
+--> fichier download & transférés, BD download et créée, domaine créé, config modifiée
+--> testé, corrigé, déplacé hors public, domaine modifié, config modifiée, htaccess modifié
+--> FINALISE
+
+
+BD debosselage-voiture.com
+
+sc1bire1781_debosselage-voiture
+sc1bire1781_debosselage-voiture-user
+}C#o]03[g#hx
+
+--> fichier download & transférés, BD download et créée, domaine créé, config modifiée
+--> testé, corrigé, déplacé hors public, domaine modifié, config modifiée, htaccess modifié
+--> FINALISE
+
+
+BD proxycom.fr
+
+sc1bire1781_proxycom
+sc1bire1781_proxycom-user
+gb~rI]~Q}Ll~
+
+--> fichier download & transférés, BD download et créée, domaine créé, config modifiée
+--> testé, corrigé, déplacé hors public, domaine modifié, config modifiée, htaccess modifié
+--> FINALISE
+
+
+BD chaumartinvesoul.fr
+
+
+sc1bire1781_chaumartinvesoul
+sc1bire1781_chaumartinvesoul-user
+.NC;sB0{8h7W
+
+--> fichier download & transférés, BD download et créée, domaine créé, config modifiée
+--> testé, corrigé, déplacé hors public, domaine modifié, config modifiée, htaccess modifié
+--> FINALISE
+
+
+
+BD angelini-avocat.fr 		Cloud04		sc1qohu6976
+
+sc1qohu6976_angelini-avocat
+sc1qohu6976_angelini-avocat-user
+}-nFK~SFwp8x
+
+--> user ok, fichier download, BD download, BD créée
+--> config modifiée, testé, corrigé, erreur articles back restante,
+--> déplace, config modifiée, htaccess modifié, déplace hors public, domaine modifié,
+--> FINALISE
+
+BD avocatdefrance.fr		Cloud04		sc1qohu6976
+
+
+sc1qohu6976_avocatdefrance
+sc1qohu6976_avocatdefrance-user
+?B?@({?uxdUk
+
+--> user OK, fichier download, BD download, Bd créée
+--> config modifiée, testé, corrigé, 
+--> déplace, config modifiée, htaccess modifié, déplace hors public, domaine modifié,
+--> FINALISE
+
+
+BD bodydiamant.fr		Cloud04		sc1qohu6976
+
+
+sc1qohu6976_bodydiamant
+sc1qohu6976_bodydiamant-user
+}$V.-6C!u^hc
+
+--> user OK, fichier download, BD download, BD créée
+--> config modifiée, testé, corrigé, 
+--> déplace, config modifiée, htaccess modifié, déplace hors public, domaine modifié,
+--> FINALISE
+
+BD bourdault.fr			Cloud04		sc1qohu6976
+
+sc1qohu6976_bourdault
+sc1qohu6976_bourdault-user
+#H)26jOk4I;a
+
+--> user OK, fichier download, BD download, BD créée
+--> config modifiée, testé, corrigé, 
+--> déplace, config modifiée, htaccess modifié, déplace hors public, domaine modifié,
+--> FINALISE
+
+
+BD csv70.fr			Cloud02		sc1qohu6976
+Email aujourd'hui
+
+sc1qohu6976_csv70
+sc1qohu6976_csv70-user
+[+?nbp6E.;mb
+
+--> BD & fichier download, Domaine créé, BD créée, fichiers transférés, 
+--> testé, corrigé : quelques bugs restants, notamment en billetterie
+--> déplacé, DNS modifié, domaine modifié, config modif, htaccess modif
+--> FINALISE
+
+
+BD fermeturespheulpin.fr	Cloud01		sc1qohu6976
+Email lundi
+
+sc1qohu6976_fermeturespheulpin
+sc1qohu6976_fermeturespheulpin-user
+j*-st=mMSc[I
+
+--> BD & fichier download, Domaine créé, BD créée, fichiers transférés, 
+--> Testé, correct, standby pour migration mail jeudi
+
+
+BD fermeturesdefrancebfc.fr	Cloud04		sc1bire1781
+Emails lundi
+
+sc1bire1781_fermeturesdefrancebfc
+sc1bire1781_fermeturesdefrancebfc-user
+f_}A[7G}%$g(
+
+--> BD & fichier download, Domaine créé, BD créée, fichiers transférés, 
+--> parfait, pas de bug, standby jusqu'à jeudi
+--> 

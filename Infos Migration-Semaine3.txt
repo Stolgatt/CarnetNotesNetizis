@@ -1,0 +1,207 @@
+Comptes client à réactiver et site à down sur plesk :
+abattoirdelamotte	user OK		site down
+sasgiroux		user OK		site down
+virotmenuiserie		user OK		site down
+menuiseriefrison	user OK		site down
+cap-finance.com		user OK		site down
+jy-nove.com		user OK		site down
+ecol-expert.fr		user OK		site down
+nordicexperience.fr	user OK		site down
+stephanecr.com		user OK		site down		BUG
+usiduc			user   		site 			DNS
+transports-gerard.com	user OK		site 			DNS
+saonoise.com		user		site 			DNS
+
+DNS non modifiés :
+rsclub 			user			--> En attente de changement DNS par client
+gensduvoyage-gadje	user 			--> Problèmes Front Helix, pas de suite pour le moment
+
+
+
+
+BD nordicexperience.fr		Cloud04		sc1bire1781
+
+sc1bire1781_nordicexperience
+sc1bire1781_nordicexperience-user
+MJ2yP52-j,d,
+
+--> BD & fichier download, Domaine créé, BD créée, fichiers transférés
+--> testé, aucune erreur, déplacé, config modif, htaccess modif, domaine modif
+--> FINALISE
+
+
+BD ecol-expert.fr		Cloud01		sc2bire1781
+
+sc3bire1781_ecol-expert
+sc3bire1781_ecol-expert-user
+hU4SI~=A)tcq
+
+--> user bloqués, fichier download, BD download
+--> Domaine créé, BD créée, fichiers transférés
+--> Test vers sc3bire
+--> quelques problèmes de version, 
+
+--> Totalement FINALISE
+
+
+BD jy-nove.com			Cloud02		sc2bire1781
+
+sc3bire1781_jy-nove
+sc3bire1781_jy-nove-user
+*.3rG8=h~Gwm
+
+--> user bloqué, fichier en download, BD download
+--> Domaine créé, BD créée, fichiers transférés, 
+
+--> Testé corrigé, tout déplacé et modifié, 
+--> FINALISE
+
+
+BD saonoise.com			Cloud01		sc2bire1781
+
+sc2bire1781_saonoise
+sc2bire1781_saonoise-user
+8g*DbvmCxg&-
+
+Ancien Output dir : /var/www/vhosts/saonoise.com/httpdocs/administrator/components/com_akeeba/backup
+
+
+--> user bloqué, fichier en download, BD download
+--> Domaine créé, BD créée, fichiers transférés,
+--> BUG : test déplacement sur sc3bire1781
+
+--> Domaine créé, BD créée
+
+--> Changement : sc2bire1781
+
+--> Domaine créé, BD créée, fichiers transférés, 
+--> FINALISE
+
+
+BD transports-gerard.com	Cloud01		sc2bire1781
+
+sc2bire1781_transports-gerard
+sc2bire1781_transports-gerard-user
+mN)}8}v4IqEV
+
+--> user down, en download, BD download, domaine créé
+--> BD créée, fichiers transférés
+--> Testé, corrigé, htaccess modif, domaine modif, déplacé, config modif
+--> FINALISE
+
+BD cap-finance.com		Cloud01 	sc2bire1781
+
+sc3bire1781_cap-finance
+sc3bire1781_cap-finance-user
+{8dp^8vT&5dI
+
+--> user bloqués, fichier download, BD download
+--> Domaine créé, BD créée, Fichiers transférés
+
+--> déplacement vers sc3bire1781
+--> Domaine créé, BD créée
+--> Testé, corrigé, htaccess modif, domaine modif, déplacé, config modif
+--> FINALISE
+
+BD stephanecr.com		CLoud01		sc2bire1781
+
+sc3bire1781_stephanecr
+sc3bire1781_stephanecr-user
+RI_gdA2&bRP[
+
+--> user down, fichiers download, BD download, domaine créé
+--> BD créée, fichiers transférés, --> marche pas, mauvaise version PHP ?
+
+--> déplacement sur sc3bire1781
+--> Testé, corrigé, déplacé hors public, htaccess modifié, config modifiée
+--> FINALISE
+
+
+BD Menuiseriefrison.fr		Cloud01		sc1qohu6976
+
+sc1qohu6976_menuiseriefrison
+sc1qohu6976_menuiseriefrison-user
+,bS)FQ}(KVH!
+
+--> user down, download, BD download, domaine créé
+--> BD créée, fichiers transférés, testé, corrigé,
+--> déplacement hors public, domaine modifié, htaccess & config modifiés
+---> FINALISE
+
+Email :
+
+COntact
+plesk a6j_a4V4
+o2switch ^GId8Mwiy*S,
+
+Compta
+plask pR7#7uk8
+o2switch G8V(vut.2iPE
+
+
+BD abattoirdelamotte.fr			sc1qohu6976
+
+sc1qohu6976_abattoirdelamotte
+sc1qohu6976_abattoirdelamotte-user
+,.aBj{EEd)}*
+
+--> user bloqué, BD download, BD créée, domaine créé
+--> fichiers download, transférés, config modifiée
+--> testé, corrigé, déplacé hors public, config modif
+--> htaccess modif, domaine modif
+---> FINALISE
+
+
+BD sasgiroux.fr				sc1qohu6976		sc3bire
+
+sc3bire1781_sasgiroux
+sc3bire1781_sasgiroux-user
+-B46fzjS4L]}
+
+--> user bloqué, BD download, BD créée, domaine créé
+--> fichiers download, transférés
+--> problèmes fichier engine.js dans sppagebuilder + mise en page étrange sur sppage Builder + quelques pb mep
+--> DEPLACEMENT SUR SC3BIRE
+
+--> Domaine créé, BD créée, fichiers transférés,
+--> Config modifiée, testé, corrigé, config modifiée, domaine modifiée, htacces modif, sorti hors public
+--> FINALISE
+
+BD usiduc.fr				sc1qohu6976
+
+sc1qohu6976_usiduc
+sc1qohu6976_usiduc-user
+6vn?Uv7*;#iY
+
+--> user bloqué, BD download, BD créée, domaine créé
+--> fichiers download, transférés, config modifiée
+--> testé, corrigé, déplacé hors public, domaine modifié,
+--> htaccess modifié, config modifiée
+--> FINALISE
+
+
+BD virotmenuiserie.fr			sc1qohu6976
+
+sc1qohu6976_virotmenuiserie
+sc1qohu6976_virotmenuiserie-user
+aPQF*6ALKxS#
+
+--> user bloqué, BD download, BD créée, domaine créé
+--> fichiers download, transférés, config modifiée
+--> testé, corrigé, 
+--> déplacé hors public, htaccess modifié, config modif, domaine modif
+--> FINALISE
+
+
+
+
+
+BD gensduvoyage-gadje.fr		sc3bire
+
+sc3bire1781_gensduvoyage-gadje
+sc3bire1781_gensduvoyage-gadje-user
+cExJbRV3a}L3
+
+
+--> BD download, fichiers download, domaine créé, fichiers transférés, BD créée, config modifiée
+--> Tests : MaJ back office ok, front PB Helix, Michel s'en occupe

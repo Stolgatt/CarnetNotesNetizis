@@ -1,0 +1,20 @@
+exporter le dump
+
+récupérer la table user-usergroupmap 
+
+- récup le groupID apres export : mettre l'ID 2
+
+nettoyer pour ramener tous les users dans le même groupe
+
+faire un backup du site
+
+importer la tablea user
+
+
+/!\ aux hemps concernant Netizis et la client a.gavoye gh70.fr
+
+/!\ dans l'export, les tables s'appellent quwrer -> vil09 sur le nouveau site
+
+
+593
+679

@@ -1,0 +1,229 @@
+Comptes client à réactiver et site à down sur plesk :
+DPM70 			user OK 	site down
+Cachot Mat 		user OK 	site down
+Cdom70 			user OK 	site down
+CliFransep 		user OK 	site down
+dspreseau 		user OK 	site down
+CPTSQG 			user OK 	site down
+agmgym 			user OK 	site down
+eurotel 		user ok 	site down
+e2c90 			user ok 	site down
+alain fedi 		user ok 	site down
+le-saintjacques		user ok		site down
+espritpaysan		user OK		site down
+garagesorevi		user ok		site down
+sgesas			user ok		site down
+
+DNS non modifiés :
+espace-ingb		user			--> en attente de changement DNS par client, par de réponse pour le moment
+fcnautic		user			--> En attente de changement DNS par client
+gensduvoyage-gadje	user 			--> Problèmes Front Helix, pas de suite pour le moment
+vecofroid		user			--> Problèmes migration, changement de serveur arrivée sc3bire --> sc1qohu
+
+
+
+BD espace-ingb.com
+
+sc3bire1781_espace-ingb
+sc3bire1781_espace-ingb-user
+u(P%k(1mB8%^
+
+--> user bloqués, fichiers download, BD Créée, domaine créé, transféré, config modifiée
+--> que des bugs erreur 404 réglées ?
+--> 
+
+
+BD gensduvoyage-gadje.fr		sc3bire
+
+sc3bire1781_gensduvoyage-gadje
+sc3bire1781_gensduvoyage-gadje-user
+cExJbRV3a}L3
+
+
+--> BD download, fichiers download, domaine créé, fichiers transférés, BD créée, config modifiée
+--> Tests : MaJ back office ok, front PB Helix, Michel s'en occupe
+
+
+BD sgesas.fr			sc3bire
+
+sc3bire1781_sgesas
+sc3bire1781_sgesas-user
+G26Q#5KO[!Dj
+
+
+--> user bloqués, BD download, fichiers download, BD créée, Domaine créé, fichier transférés, config modifiée, testé, déplacé hors public, domaine modifié, htaccess modifié
+
+BD vecofroid.com 		sc3bire
+
+sc3bire1781_vecofroid
+sc3bire1781_vecofroid-user
+w_$$N}=ycQ6T
+
+
+--> user bloqués, BD download, fichiers download, BD créée, Domaine créé, fichiers transférés, config modifiée, htaccess modifié
+--> Erreur 0 jsp
+
+
+
+
+
+
+
+
+
+BD le-saintjacques.fr 			sc3bire
+
+sc3bire1781_le-saintjacques
+sc3bire1781_le-saintjacques-user
+T&f629.DD_9j
+
+--> BD download, Fichier download, domaine créé, fichiers transférés, BD créée, config modifiée
+--> FINALISE
+
+
+BD espritpaysan.fr			sc1qohu
+
+sc1qohu6976_espritpaysan
+sc1qohu6976_espritpaysan-user
+p0St%JsjV5aM
+
+
+--> Bd download, Fichiers download, domaine créé, fichiers transférés, BD créée, config modifiée
+--> Testé, pas de pb, déplacé hors public et domaine modifié, config modifiée, htaccess modifié
+--> FINALISE
+
+
+BD garagesorevi.fr			sc3bire
+
+sc3bire1781_garagesorevi
+sc3bire1781_garagesorevi-user
+05*+!kFk7=@D
+
+
+
+--> BD download, fichiers en download, domaine créé, BD créée, fichier transférés, config modifiée
+--> Testé, pas de pb, déplacé hors public et domaine modifié, config modifiée, htaccess modifié
+--> FINALISE
+
+BD Alain Fedi
+
+qohu6976_alainfedi
+qohu6976_alainfedi-user
+.mj7(XxiO#i&
+
+--> BD créée, Fichiers uploadés, Config modifiée, Domaine créé, MaJ, Testé, déplacé hors public
+--> FINALISE | Email ?
+
+
+BD AGMGym
+
+
+qohu6976_agmgym
+qohu6976_agmgym-user
+{MtHZIIzJ&I8
+
+--> BD créée, Fichiers uploadés, Config modifiée, Domaine créé, MaJ, Testé, déplacé hors public
+
+
+BD e2c90.org
+
+sc3bire1781_e2c90
+sc3bire1781_e2c90-user
+K]3W6GYB[eGP
+
+--> user bloqués, fichiers download,  BD Créée, domaine créé, transféré
+--> Réuploadé : config à modifier 
+
+--> Problèmes bannière et emoji (pas de bug) corrigé
+--> FINALISE
+
+
+BD eurotel.fr
+
+sc3bire1781_eurotel
+sc3bire1781_eurotel-user
+eqb,CYMJ*rBw
+
+--> user desac, download, BD créée, Domaine créé, transféré, config modifiée, testé, déplacé hors public, domaine modifié
+--> FINALISE
+
+BD fcnautic.com
+
+sc3bire1781_fcnautic
+sc3bire1781_fcnautic-user
+kEx^chx+2~1$
+
+--> user desac, download, BD créée, Domaine créé, transféré, config modifiée, testé, déplacé hors public, domaine modifié
+--> FINALISE
+
+
+
+
+BD CPTSQG
+
+qohu6976_cptsqg
+qohu6976_cptsqg-user
+I%ms0oeoBDkF
+
+--> Download, BD créé, Domaine créé, config modifié
+--> Transféré vers Qohu
+--> FINALISE
+
+
+BD DPM70
+
+sc3bire1781_dpm70
+sc3bire1781_dpm70-user
+gKq9rl~_Zx?;
+
+--> Download, BD créée, Domaine créé, config modifiée
+--> Transféré vers sc3bire
+--> Tests effectués, back office OK, front quelques bugs
+--> FINALISE
+
+
+BD DSPReseau                            
+
+DEPLACEMENT SUR SC1QOHU
+
+			--> Sources Download + bd créée + domaine créé
+			--> config modifiée + Sources transférées vers nouveau serveur
+			--> Transfert vers sc1qohu en cours
+			--> BD créée, Domaine créé, config modifiée
+			--> Tests effectués
+
+sc1qohu6976_dspreseau
+sc1qohu6976_dspreseau-user
+wYDp9(05q08m
+
+--> réparé et prêt pour DNS et SSL
+
+
+
+BD Cachot Mat				--> Sources download + bd créée + domaine créé
+					--> config modifiée + Sources transférées vers nouveau serveur
+					--> Transféré vers sc1quho6976 problèmes gérés + htaccess modif + path modif public_html enlevé 
+						--> DNS et SSL à gérer
+					--> FINALISE
+sc1qohu6976_cachotmateriel
+sc1qohu6976_cachotmateriel-user
+)x@v83DbtRA&
+
+BD cdom70				--> Sources download + bd créée + domaine créé
+					--> config modifiée + Sources transférées vers nouveau serveur 
+					--> FINALISE
+
+sc3bire1781_cdom70
+sc3bire1781_cdom70-user
+%k.OEV+}eJU{
+
+BD Clifransep				--> Sources download + bd créée + domaine créé
+					--> config modifiée + Sources transférées vers nouveau serveur
+					--> FINALISE
+
+sc3bire1781_clifransep
+sc3bire1781_clifransep-user
+E$JUX4Rr5$Q3
+
+
+

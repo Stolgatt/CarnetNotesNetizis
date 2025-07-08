@@ -1,0 +1,94 @@
+Site angelini-avocat Cloud04 -> sc1qohu6976
+
+Uncaught TypeError: this._addClass is not a function
+    at e.<computed>.<computed>._create (jquery-ui.min.js:12:10603)
+    at e.<computed>.<computed>._create (jquery-ui.min.js:16:5393)
+    at e.<computed>.<computed>._createWidget (jquery-ui.min.js:16:7458)
+    at new e.<computed>.<computed> (jquery-ui.min.js:16:4976)
+    at HTMLUListElement.<anonymous> (jquery-ui.min.js:16:6700)
+    at jQuery.each (jquery.js?d71bac5cd31b028f850df952d1e8c328:374:19)
+    at jQuery.fn.init.each (jquery.js?d71bac5cd31b028f850df952d1e8c328:140:17)
+    at e.fn.<computed> [as sortable] (jquery-ui.min.js:16:6623)
+    at HTMLDocument.<anonymous> (blog-options.js?d71bac5cd31b028f850df952d1e8c328:7:4370)
+    at fire (jquery.js?d71bac5cd31b028f850df952d1e8c328:3236:31)
+
+
+--> Pas de solution retrouvée, problème déjà présent sur le site sur OVH
+--> Problème similaire sur cachot-materiel.com ? 
+
+
+
+####################################################################
+Transports Barbier :
+
+Nombreuses erreur "deprecated"
+
+Uncaught ReferenceError: jQuery is not defined
+    at jquery.parallax.js?e55bde7d6e36ebf17ba0b8c1e80e4065:1:891
+
+jquery.magnific-popup.min.js:4 Uncaught TypeError: e is not a function
+    at jquery.magnific-popup.min.js:4:344
+    at jquery.magnific-popup.min.js:4:73
+    at jquery.magnific-popup.min.js:4:147
+
+--> 
+
+
+
+#####################################################################
+widgetkit erreur dans fichiers cache 
+
+--> pb dans administrator/components/com_widgetkit/js/jQuery.ui.js
+
+
+
+
+#####################################################################
+espacevieingenierie.fr
+
+jquery.parallax.js?e55bde7d6e36ebf17ba0b8c1e80e4065:1 Uncaught ReferenceError: jQuery is not defined
+    at jquery.parallax.js?e55bde7d6e36ebf17ba0b8c1e80e4065:1:891
+(anonyme) @ jquery.parallax.js?e55bde7d6e36ebf17ba0b8c1e80e4065:1Comprendre cette erreur
+jquery.magnific-popup.min.js:4 Uncaught TypeError: e is not a function
+    at jquery.magnific-popup.min.js:4:343
+    at jquery.magnific-popup.min.js:4:73
+    at jquery.magnific-popup.min.js:4:147
+(anonyme) @ jquery.magnific-popup.min.js:4
+(anonyme) @ jquery.magnific-popup.min.js:4
+(anonyme) @ jquery.magnific-popup.min.js:4Comprendre cette erreur
+79fbcfa732801d294d852c5c5ce5cd3f.js:29 Uncaught SyntaxError: Invalid or unexpected token (at 79fbcfa732801d294d852c5c5ce5cd3f.js:29:395)Comprendre cette erreur
+sppagebuilder.js?e55bde7d6e36ebf17ba0b8c1e80e4065:7 Uncaught ReferenceError: jQuery is not defined
+
+
+
+--> j'ai remplacé les fichiers suivants : 
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/templates/construct/js/bootstrap.min.js
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/templates/construct/css/bootstrap.min.css
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/components/com_sppagebuilder/assets/js/vendor.js
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/components/com_sppagebuilder/assets/js/sp_carousel.js
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/components/com_sppagebuilder/assets/js/medium-editor.min.js
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/components/com_sppagebuilder/assets/js/leaflet.js
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/components/com_sppagebuilder/assets/js/js_slider.js
+/home/sc1qohu6976/public_html/espacevieingenierie.fr/components/com_sppagebuilder/assets/js/jquery.prettyPhoto.js
+
+(ça n'a rien changé sur l'erreur...)
+Puis j'ai mis à jour SPPB en 5.4 et certaines erreurs graphiques se sont corrigées.
+Les erreurs JS étaient déjà là avant de toute façon.
+
+
+--> Même genre d'erreur avec maxcommunication.fr, j'ai remis l'entièreté du dossier templates et du dossier components
+
+########################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+Comptes client à réactiver et site à down sur plesk :
+
+eurlpyphilippe.fr		user OK		site 
+maxcommunication.fr		user OK		site 
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+DNS non modifiés :
+lecaveaudugrandpuits.fr		user 		--> En attente de changement DNS par client 
+sbfinances-bfc.fr		user 		--> En attente de changement DNS par client
+npv70.fr			user 		--> En attente de changement DNS par client 
+hautesaonefibre.fr 	user 			--> En attente de changement DNS par client
+ingenierie70.fr		user 			--> En attente de changement DNS par client
+bourdault.fr		user			--> En attente de changement DNS par client
+rsclub.fr		user			--> En attente de changement DNS par client
+usiduc.fr		user			--> En attente de changement DNS par client
+transports-gerard.com	user			--> En attente de changement DNS par client
+gensduvoyage-gadje	user 			--> Problèmes Front Helix, pas de suite pour le moment
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+BD pdv.fr			Cloud01			sc1qohu6976
+
+NE PAS REACTIVER emmanuelle NI melanie
+
+sc1qohu6976_pdv
+sc1qohu6976_pdv-user
+5X+z[$e;$Jgw
+
+--> user down, fichiers & BD download, BD & DOmaine créé
+--> Téléchargement via ZIP file --> Beaucoup plus rapide
+
+
+
+BD ep-chauffage.fr		Cloud04			sc1bire1781
+
+
+
+
+
+-->
+
+
+BD jourdainsas.fr		Cloud02			sc1qohu6976
+
+
+
+--> 
+
+BD aikidovesoul.fr		Cloud01			sc1qohu6976
+
+
+
+-->
+
+
+
+
+
+BD eurlpyphilippe.fr		sc1qohu6976
+
+sc1qohu6976_eurlpyphilippe
+sc1qohu6976_eurlpyphilippe-user
+2{?(8mK]oG}~
+
+--> BD & fichier download, BB & domaine créé, 
+--> FINALISE
+
+BD maxcommunication.fr 		sc1qohu6976
+
+sc1qohu6976_maxcommunication
+sc1qohu6976_maxcommunication-user
+}z;sLiCN.Oi-
+
+--> BD & fichier download, BB & domaine créé, 
+--> FINALISE

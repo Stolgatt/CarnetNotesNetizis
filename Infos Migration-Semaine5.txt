@@ -1,0 +1,181 @@
+Comptes client à réactiver et site à down sur plesk :
+
+laquedesign.com			user OK		site down
+mrm-process.fr			user OK 	site down
+cabinetvannier.fr 		user OK 	site down
+caue70.fr			user OK		site down
+cchvs.fr			user OK		site down
+conflandey-industries.com	user OK		site down
+espacevieingenierie.fr		user OK		site down
+esthetiquepro.com		user OK		site down
+hautesaonefibre.fr		user 		site 
+ingenierie70.fr			user 		site 
+kroemer.fr			user OK		site down
+ms-motos.fr			user OK		site 
+lecaveaudugrandpuits.fr		user OK		site down
+
+sgs-sage.fr			user OK		site 
+saonoise.com			user OK		site 
+-------------------------------------------------------------------------------------------------------------------
+
+
+DNS non modifiés :
+ 
+sbfinances-bfc.fr		user 		--> En attente de changement DNS par client
+npv70.fr			user 		--> En attente de changement DNS par client 
+hautesaonefibre.fr 	user 			--> En attente de changement DNS par client
+ingenierie70.fr		user 			--> En attente de changement DNS par client
+bourdault.fr		user			--> En attente de changement DNS par client
+rsclub.fr		user			--> En attente de changement DNS par client
+usiduc.fr		user			--> En attente de changement DNS par client
+transports-gerard.com	user			--> En attente de changement DNS par client
+gensduvoyage-gadje	user 			--> Problèmes Front Helix, pas de suite pour le moment
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+BD npv70.fr			CLoud01 		sc1qohu6976
+
+sc1qohu6976_npv70
+sc1qohu6976_npv70-user
+&U&,kLy6Yy;7
+
+--> fichiers & BD download, BD & DOmaine créé
+--> FINALISE
+
+BD lecaveaudugrandpuits.fr	Cloud02			sc1qohu6976
+
+sc1qohu6976_lecaveaudugrandpuits
+sc1qohu6976_lecaveaudugrandpuits-user
+B8yF=BK8*sD]
+
+--> fichiers & BD download, BD & DOmaine créé
+--> FINALISE
+
+BD sbfinances-bfc.fr		Cloud02			sc1qohu6976
+
+sc1qohu6976_sbfinances-bfc
+sc1qohu6976_sbfinances-bfc-user
+4m{DuXC^iajL
+
+--> fichiers & BD download, BD & DOmaine créé
+--> FINALISE
+
+
+BD kroemer.fr			sc1qohu6976
+
+sc1qohu6976_kroemer
+sc1qohu6976_kroemer-user
+LIRmA3xC{pZR
+
+--> BD & fichier download, BB & domaine créé, 
+--> Fonctionnel
+--> FINALISE
+
+BD ms-motos.fr			sc1qohu6976
+
+sc1qohu6976_ms-motos
+sc1qohu6976_ms-motos-user
+;4+V!Z%JgGfP
+
+--> BD & fichier download, BB & domaine créé, 
+--> FINALISE
+
+BD espacevieingenierie.fr		sc1qohu6976
+
+
+sc1qohu6976_espacevieingenierie
+sc1qohu6976_espacevieingenierie-user
+aLV1_u55-Cq-
+
+--> user, BD, Fichiers download, BD & domaine créé,
+--> FINALISE
+
+
+BD esthetiquepro.com			sc1qohu6976
+
+sc1qohu6976_esthetiquepro
+sc1qohu6976_esthetiquepro-user
+Pu)+Tp=@-eC)
+
+--> user, BD, Fichiers download, BD & domaine créé
+--> FINALISE
+
+
+BD hautesaonefibre.fr			sc1qohu6976
+
+sc1qohu6976_hautesaonefibre
+sc1qohu6976_hautesaonefibre-user
+UE5xwq,3CKde
+
+--> user, BD, Fichiers download, BD & domaine créé
+--> FINALISE
+
+
+BD ingenierie70.fr			sc1qohu6976
+
+sc1qohu6976_ingenierie70
+sc1qohu6976_ingenierie70-user
+28KGY3BEt+;y
+
+--> user, BD, Fichiers download,  BD & domaine créé
+--> FINALISE
+
+
+BD caue70.fr			sc1qohu6976
+
+sc1qohu6976_caue70
+sc1qohu6976_caue70-user
+I9Lz&iMSS{pq
+
+--> Fichier BD download, … 
+--> FINALISE
+
+BD cchvs.fr			sc1qohu6976
+
+sc1qohu6976_cchvs
+sc1qohu6976_cchvs-user
+IKTQ-sf_.jZ$
+
+--> Fichier BD download,....
+--> FINALISE
+
+BD conflandey-industries.com	sc1qohu6976
+
+sc1qohu6976_conflandey-industries
+sc1qohu6976_conflandey-industries-user
+N!91WoF,Oj0R
+
+--> Fichier BD download, transférés, 
+--> FINALISE
+
+
+BD cabinetvannier.fr		sc1qohu6976
+
+sc1qohu6976_cabinetvannier
+sc1qohu6976_cabinetvannier-user
+A*R,.YiF?01%
+
+--> Fichier BD download, BD & domaine créé, fichier transférés, config modifiée
+--> FINALISE
+
+
+BD laquedesign.com			sc1qohu6976     PHP 7.4
+
+sc1qohu6976_laquedesign
+sc1qohu6976_laquedesign-user
+!k#iL5n-+Hc9
+
+--> Fichier & BD download, BD créée, Domaine créé
+--> FINALISE
+
+
+BD mrm-process.fr			sc3bire1781     PHP 7.2
+
+sc3bire1781_mrm-process
+sc3bire1781_mrm-process-user
+[s.^Id%=mK*k
+
+--> BD, domaine créé, fichiers download,
+--> FINALISE
