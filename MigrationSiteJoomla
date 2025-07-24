@@ -1,0 +1,374 @@
+
+Serveurs
+Anciens serveurs
+Cloud01 : https://cloud01.netizis.fr:8443/ 
+Identifiant : admin
+Mot de passe : cM9L2rae+F795Ht!
+IP : 149.202.184.247
+
+Cloud02 : https://cloud02.netizis.fr:8443/ 
+Identifiant : admin
+Mot de passe : wfrE8RGhJ8dM
+IP : 149.202.184.248
+
+Cloud04 : https://cloud04.netizis.fr/ 
+Identifiant : admin
+Mot de passe : C7hd2c!8PyB&kpci
+IP : 51.159.111.198
+Nouveaux serveurs
+Manx : https://manx.o2switch.net:2083/ 
+Identifiant : qohu6976
+Mot de passe : h584-vgvn-EtF?
+IP: 109.234.166.235
+
+Esturgeon : https://esturgeon.o2switch.net:2083/ 
+Identifiant : bire1781
+Mot de passe : b4gx-axn8-GCv]
+IP: 109.234.166.33
+
+Turquoise : https://turquoise.o2switch.net:2083/ 
+Identifiant : cami7974
+Mot de passe : 59mj-jwRb-vvE!
+IP: 109.234.167.47
+
+#############################################################################################################
+
+Procédure
+Se connecter au back-office de joomla (https://www.site.fr/administrator ID : mcampaner@netizis.com et MDP : qwazerty70 et les 3 derniers caractères du domaine. Par exemple vesoul.fr > qwazerty70oul) et désactiver le compte utilisateur du client.
+Télécharger les sources via FTP.
+Télécharger le dump de la BDD depuis plesk.
+Préparer sur o2switch
+Configuration du domaine en sous-dossier de public_html)
+Création de la BDD (en général je met le nom du site en nom de bdd et je rajouter -user pour le compte utilisateur)
+Import des sources
+Import de la BDD
+Modifier le fichier configuration.php
+$log_path = '/home/qohu6976/public_html/sg-renov.fr/administrator/logs';
+$tmp_path = '/home/qohu6976/public_html/sg-renov.fr/tmp';
+$user (nouvel identifiant de la bdd)
+$db (nouveau nom de la bdd)
+$password (nouveau mdp de la bdd)
+Tester le front et le back-office
+http://qohu6976.odns.fr/
+http://sc1qohu6976.universe.wf/
+http://sc2qohu6976.universe.wf/
+http://sc3qohu6976.universe.wf/
+http://sc4qohu6976.universe.wf/
+http://bire1781.odns.fr/
+http://sc1bire1781.universe.wf/
+http://sc2bire1781.universe.wf/
+http://sc3bire1781.universe.wf/
+http://cami7974.odns.fr/
+Faire les mises à jour du noyau et des extensions
+Déplacer le dossier de public_html vers la racine du serveur
+Changer les $log_path et $tmp_path sans le "public_html"
+Modifier  l'emplacement du domaine sur O2switch (enlever le "public_html")
+Modifier fichier .htaccess et coller à la fin : 
+RewriteEngine On
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
+RewriteRule ^.*$ https://www.%1%{REQUEST_URI} [L,NE,R=301]
+Laurine : Changement de DNS
+Mettre le SSL (Let's Encrypt)
+Tester l'url (https://www)
+Réactiver le compte utilisateur client
+Désactiver le site sur plesk
+Sites à migrer / Objectif : 4 sites par jour
+
+##############################################################################################################################
+
+Site
+Origine
+Destination
+Attention
+
+gensduvoyage-gadje.fr
+Cloud01
+sc3bire1781
+Pb template
+
+transports-gerard.com
+Cloud01
+sc2bire1781
+NDD client
+
+usiduc.fr
+Cloud02
+sc1qohu6976
+NDD client
+
+saonoise.com
+Cloud01
+sc2bire1781
+NDD client
+
+bourdault.fr
+Cloud04
+sc1qohu6976
+NDD client
+
+gigamedia.fr
+Cloud04
+sc1qohu6976
+NDD client
+
+sgs-sage.fr
+Cloud04
+sc1qohu6976
+NDD Client
+
+laquedesign.com
+Cloud04
+sc1qohu6976
+
+
+mrm-process.fr
+Cloud02
+sc3bire1781
+NDD client
+
+ep-chauffage.fr
+Cloud04
+sc1bire1781
+Email SMTP
+
+jourdainsas.fr
+Cloud02
+sc1qohu6976
+Email SMTP
+
+
+
+
+
+
+aikidovesoul.fr
+Cloud01
+sc1qohu6976
+Email
+
+cabinetvannier.fr
+Cloud02
+sc1qohu6976
+
+
+caue70.fr
+Cloud01
+sc1qohu6976
+
+
+cchvs.fr
+Cloud01
+sc1qohu6976
+
+
+conflandey-industries.com
+Cloud02
+sc1qohu6976
+
+
+espacevieingenierie.fr
+Cloud02
+sc1qohu6976
+
+
+esthetiquepro.com
+Cloud02
+sc1qohu6976
+
+
+hautesaonefibre.fr
+Cloud02
+sc1qohu6976
+NDD Client
+
+ingenierie70.fr
+Cloud02
+sc1qohu6976
+NDD Client
+
+eurlpyphilippe.fr
+Cloud01
+sc1qohu6976
+
+
+kroemer.fr
+Cloud01
+sc1qohu6976
+
+
+maxcommunication.fr
+Cloud01
+sc1qohu6976
+
+
+ms-motos.fr
+Cloud01
+sc1qohu6976
+
+
+lecaveaudugrandpuits.fr
+Cloud02
+sc1qohu6976
+
+
+sbfinances-bfc.fr
+Cloud02
+sc1qohu6976
+NDD Client
+
+pdv.fr
+Cloud01
+sc1qohu6976
+NDD Client
+
+npv70.fr
+Cloud01
+sc1qohu6976
+NDD Client
+
+ville-faverney.com
+Cloud01
+sc1qohu6976
+
+
+zuberrieder.fr
+Cloud01
+sc1qohu6976
+
+
+interval.coop
+Cloud02
+sc1qohu6976
+NDD Client
+
+theatre-edwige-feuillere.fr
+Cloud01
+sc1qohu6976
+
+
+vesoul.fr
+Cloud04
+sc1qohu6976
+
+
+deliberations.vesoul.fr
+Cloud02
+sc1qohu6976
+
+
+
+
+
+
+
+shop.gigamedia.fr
+Cloud04
+à côté de gigamedia.fr
+NDD Client
+
+shop.bienetremedical.fr
+Cloud04
+a côté de bienetremedical.fr
+
+
+lesabeillesdepomoy.fr
+Cloud04
+sc1cami7479
+Email SMTP
+
+membranecryolipolyse.fr
+Cloud01
+sc1cami7479
+
+
+bruleriedoillon.fr
+Cloud04
+sc1cami7479
+
+
+elixirdesmoussaillons.com
+Cloud04
+sc1cami7479
+
+
+jeandevelas.fr
+Cloud04
+sc1cami7479
+
+
+bougieparaffine.fr
+Cloud04
+sc1cami7479
+
+
+t-o-t.fr
+Cloud02
+sc1cami7479
+
+
+shop.t-o-t.fr
+Cloud02
+sc1cami7479
+
+
+lespimpettes.fr
+Cloud04
+sc1cami7479
+
+
+passioncollection.fr
+Cloud01
+sc1cami7479
+Email SMTP
+
+equipements-du-professionnel.fr
+Cloud01
+sc1cami7479
+Email
+
+ino6tol.fr
+Cloud04
+sc1cami7479
+Email
+
+
+
+
+
+
+petin-henry.fr
+Cloud01
+sc3bire
+
+
+handy-up.fr
+Cloud01
+sc3bire
+
+
+biomnigene.fr
+Cloud01
+sc3bire
+
+
+#######################################################################################################
+Emails
+Paramètres
+Imap
+Nom d'utilisateur : votre email
+Serveur entrant : cloud04.netizis.fr ou cloud02  ou cloud01
+Port serveur entrant : 143
+Sécurité de la connexion : STARTTLS
+Authentification : mot de passe normal
+SMTP
+Nom d'utilisateur : votre email
+Serveur sortant :  cloud04.netizis.fr ou cloud02  ou cloud01
+Port serveur sortant : 587 ou 25
+Sécurité de la connexion : Aucune
+Authentification : mot de passe normal
+Migration
+Aller sur https://imapsync.lamiral.info/X/ 
+Mettre les paramètres de l'ancienne boite
+Mettre les paramètres de la nouvelle boite
